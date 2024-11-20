@@ -9,7 +9,7 @@ import (
 
 func main() {
 	utils.YatoriCoreInit()
-	cache := qitApi.UserCache{Account: "221171010606", Password: "zxd2839182980."}
+	cache := qitApi.UserCache{Account: "XXX", Password: "XXX"}
 	loginAction, err := action.QitLoginAction(&cache)
 	if err != nil {
 		panic(err)

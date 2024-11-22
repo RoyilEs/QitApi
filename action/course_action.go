@@ -8,6 +8,7 @@ import (
 )
 
 type CourseStruct struct {
+	//TODO 课表关键信息
 }
 
 func QitCoursePull(cache *qitApi.UserCache) {

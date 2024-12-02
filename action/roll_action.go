@@ -22,6 +22,7 @@ func RollAction(cache *qitApi.UserCache) StudentRollStruct {
 	rolls, err := cache.StudentRollApi()
 	if err != nil {
 		fmt.Printf("获取学生信息失败：%v", err)
+		return StudentRollStruct{}
 	}
 	studentRoll := StudentRollStruct{
 		rolls[0],
